@@ -1,0 +1,33 @@
+.name-heading {
+    text-align: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    // position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 20rem;
+    z-index: 999;
+    background-color: #525e65;
+    text-align: center;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+
+
+    .nav-item {
+        display: block;
+        height: 3rem;
+        padding: 0 1rem;
+        color: #DBE8D4;
+        line-height: 3em;
+        color: #73CCA8;
+        // text-decoration: none;
+        font-weight: bold;
+    }
+    .nav-item:hover {
+        color: #73cca8c6;
+
+    }
+}
