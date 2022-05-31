@@ -1,4 +1,5 @@
 import {useState, useEffect} from "react"
+import './styles.scss'
 
 export default function Projects(props) {
     const [projects, setProjects] = useState(null)
@@ -20,7 +21,7 @@ export default function Projects(props) {
         return projects.map((project) => (
             <div>
                 <h1>{project.name}</h1>
-                <img src={project.url} alt="img" />
+                <img id="gipy-image"src={project.image} alt="img" /><br/>
                 <a href={project.git}>
                     <button>Github</button>
                 </a>
