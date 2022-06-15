@@ -19,7 +19,7 @@ export default function About ({URL}) {
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
     const loaded = () => (
-        <div>
+        <div id="about-container">
             <h1>Nice to meet you</h1>
             <h2>Reach me at "{about.email}"</h2>
             <p>{about.bio}</p>

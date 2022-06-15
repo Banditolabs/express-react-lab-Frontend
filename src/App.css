@@ -1,6 +1,7 @@
 .App {
   align-items: center;
   height: 100%;
+  text-align: center;
 }
 
 html,body {
@@ -34,9 +35,11 @@ html,body {
 }
 
 #footer {
-  position: absolute;
-  bottom: 0;
-  right: 50%;
+  height: auto !important;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {

@@ -19,15 +19,18 @@ export default function Projects(props) {
     // define a function that will return the JSX needded once we get the data
     const loaded = () => {
         return projects.map((project) => (
-            <div>
+            <div className="projects-container">
+            
                 <h1>{project.name}</h1>
                 <img id="gipy-image"src={project.image} alt="img" /><br/>
-                <a href={project.git}>
-                    <button>Github</button>
-                </a>
-                <a href={project.live}>
-                    <button>live site</button>
-                </a>
+                <div id="button-container">
+                    <a href={project.git}>
+                        <button>Github</button>
+                    </a>
+                    <a href={project.live}>
+                        <button>live site</button>
+                    </a>
+                </div>
             </div>
         ))
     }

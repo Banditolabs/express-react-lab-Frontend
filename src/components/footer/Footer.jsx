@@ -5,8 +5,10 @@ import './styles.scss'
 export default function Footer (props) {
     return (
         <div id="footer">
-            <a href="https://www.linkedin.com/in/joshuagoss/"><img className="social-img" alt="linkdin" src={linkedin} /></a>
-            <a href="https://github.com/Banditolabs"><img className="social-img" alt="github" src={github} /></a>
+            <div>
+                <a href="https://www.linkedin.com/in/joshuagoss/"><img className="social-img" alt="linkdin" src={linkedin} /></a>
+                <a href="https://github.com/Banditolabs"><img className="social-img" alt="github" src={github} /></a>
+            </div>  
         </div>
 
     )
