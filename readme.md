@@ -1,6 +1,6 @@
-# Book Mart
+# Personal portfolio
 ***
-This App May be used for adding your favorite books to your book club reading list. Take a look here to see what others recommend and how much they cost! The user may delete a book or edit a book at the click of a button.
+This is a first draft of my portfolio website.
 
 [Click Here](https://stately-malabi-bcb18e.netlify.app) to see the deployed app!
 [Frontend Github Repo](https://github.com/Banditolabs/express-react-lab-Frontend)
