@@ -10,7 +10,7 @@ import Projects from './pages/projects/Projects'
 
 function App() {
   // URL should have your heroku url for your backend, make sure you include the trailing slash
-  const URL = "http://localhost:4000/"
+  const URL = "https://enigmatic-hamlet-13400.herokuapp.com/"
 
   return (
     <div className="App">
